@@ -269,13 +269,13 @@ contract LarinToken is StandardToken, BurnableToken, Ownable {
     uint constant unlockTime = 1546300800; //  Tuesday, January 1, 2019 12:00:00 AM
 
     // Here we will specify wallet numbers of sample accounts we can transfer money into
-    address company = 0x7C4Fd656F0B5E847b42a62c0Ad1227c1D800EcCa;
-    address team = 0xd230f231F59A60110A56A813cAa26a7a0D0B4d44;
+    address company = 0x594e82C236F18414E68F98c8FBebE977d2bDa220;
+    address team = 0x647dbcD6B84279f58D7FDE30FFB9Fb29534Eb141;
 
-    address crowdsale = 0xf9e5041a578d48331c54ba3c494e7bcbc70a30ca;
-    address bounty = 0x4912b269f6f45753919a95e134d546c1c0771ac1;
+    address crowdsale = 0x051cd9AfAcA99CAf76b934c51188137FAD7354fF;
+    address bounty = 0x594e82C236F18414E68F98c8FBebE977d2bDa220;
 
-    address beneficiary = 0xcC146FEB2C18057923D7eBd116843adB93F0510C;
+    address beneficiary = 0xc61B951A9c3d36c9FA032e4dA892E6fB2e488C01;
 
     uint constant companyTokens = 150000000e18;
     uint constant teamTokens = 70000000e18;
@@ -294,22 +294,12 @@ contract LarinToken is StandardToken, BurnableToken, Ownable {
         preSale(bounty, bountyTokens);
 
         // Private Pre-Sale
-        preSale(0x300A2CA8fBEDce29073FD528085AFEe1c5ddEa83, 10000000e18);
-        preSale(0xA7a8888800F1ADa6afe418AE8288168456F60121, 8000000e18);
-        preSale(0x9fc3f5e827afc5D4389Aff2B4962806DB6661dcF, 6000000e18);
-        preSale(0xa6B4eB28225e90071E11f72982e33c46720c9E1e, 5000000e18);
-        preSale(0x7fE536Df82b773A7Fa6fd0866C7eBd3a4DB85E58, 5000000e18);
+        preSale(0xF8F4D4227F7d86C526D6EFeB5214Ba6B229401d6, 10000000e18);
+        preSale(0x6e9E9B26819a66c82337df78bdA2E80e6822F2E5, 8000000e18);
+        preSale(0x4974Bf8c8163A61FE81114EA4747f6349318110E, 6000000e18);
+        preSale(0xbED34F05e228617ed872C6A00Ead41f7ba96C968, 5000000e18);
+        preSale(0x90a2531A10B6c4d0Ee6aE9d113C7496216BAD04b, 5000000e18);
 
-        preSale(0xC3Fd11e1476800f1E7815520059F86A90CF4D2a6, 5000000e18);
-        preSale(0x813b6581FdBCEc638ACA36C55A2C71C79177beE3, 4000000e18);
-        preSale(0x9779722874fd86Fe3459cDa3e6AF78908b473711, 2000000e18);
-        preSale(0x98A1d2C9091321CCb4eAcaB11e917DC2e029141F, 1000000e18);
-        preSale(0xe5aBBE2761a6cBfaa839a4CC4c495E1Fc021587F, 1000000e18);
-
-        preSale(0x1A3F2E3C77dfa64FBCF1592735A30D5606128654, 1000000e18);
-        preSale(0x41F1337A7C0D216bcF84DFc13d3B485ba605df0e, 1000000e18);
-        preSale(0xAC24Fc3b2bd1ef2E977EC200405717Af8BEBAfE7, 500000e18);
-        preSale(0xd140f1abbdD7bd6260f2813fF7dB0Cb91A5b3Dcc, 500000e18);
 
     }
 
