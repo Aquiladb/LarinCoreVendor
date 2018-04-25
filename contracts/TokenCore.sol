@@ -269,7 +269,7 @@ contract LarinToken is StandardToken, BurnableToken, Ownable {
     uint constant unlockTime = 1546300800; //  Tuesday, January 1, 2019 12:00:00 AM
 
     // Here we will specify wallet numbers of sample accounts we can transfer money into
-    address company = 0x594e82C236F18414E68F98c8FBebE977d2bDa220;
+    address company = 0x647dbcD6B84279f58D7FDE30FFB9Fb29534Eb141;
     address team = 0x647dbcD6B84279f58D7FDE30FFB9Fb29534Eb141;
 
     address crowdsale = 0x051cd9AfAcA99CAf76b934c51188137FAD7354fF;

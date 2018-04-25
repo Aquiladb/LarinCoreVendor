@@ -48,4 +48,8 @@ contract VendorInvoice is LarinToken, Mortal  {
 
 
     }
+
+    function calculateAndPayShares() {
+        // pay the share between stackeholders and stuff;
+    }
 }
