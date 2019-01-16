@@ -1,6 +1,6 @@
 var vendor = "0xF8F4D4227F7d86C526D6EFeB5214Ba6B229401d6"; // an address
 var customer = "0x6e9E9B26819a66c82337df78bdA2E80e6822F2E5"; // another address
-var company = "";
+var company = "test";
 
 module.exports = function(callback) {
     VendorInvoice.deployed().then(function (instance) {
